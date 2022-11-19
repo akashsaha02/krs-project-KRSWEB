@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-bar {
+    height: 75px;
+    display: flex;
+    background-color: #181e25;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.list {
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.links {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.btnn1 {
+    background-color: crimson;
+
+}
+
+.btnn2 {
+    background-color: darkgreen;
+}
+
+.btnn1,
+.btnn2 {
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    font-size: large;
+    text-decoration: none;
+}
+
+.btnn {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    border: 2px solid black;
+    background-color: rgba(170, 182, 198, 0.5);
+    width: 400px;
+    height: fit-content;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+}
+
+.login-box h1{
+    text-align: center;
+}
+
+.user-box{
+    font-size: large;
+}
+
+.form-input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(82, 82, 185, 0.3);
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.btn3{
+    background-color: rgba(115, 143, 196, 0.5);
+    font-size: 16px;
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    background-color: #181e25;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+.contact-list{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}

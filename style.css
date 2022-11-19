@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #4094ec;
+    width: 80%;
+    height: 50%;
+}
+
+#course_container {
+    display: flex;
+    align-items: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.course_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    color:white;
+    background-color: #4094ec;
+    margin: 10px;
+}
+
+.nav-bar {
+    height: 75px;
+    display: flex;
+    background-color: #181e25;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.list {
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.links {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.btnn1 {
+    background-color: crimson;
+
+}
+
+.btnn2 {
+    background-color: darkgreen;
+}
+
+.btnn1,
+.btnn2 {
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    font-size: large;
+    text-decoration: none;
+}
+
+.btnn {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-1 {
+    text-align: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link-2 {
+    color: white;
+    background-color: #4094ec;
+    border: 2px solid #4094ec;
+    padding: 8px 12px;
+    font-size: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.heading {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.para {
+    width: 650px;
+    color: #181e25;
+}
+
+.buttons {
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 24px;
+}
+
+.bt1 {
+    background-color: #4094ec;
+    color: white;
+    border: 1px solid #4094ec;
+}
+
+.bt2 {
+    background-color: white;
+}
+
+.vrr {
+    text-decoration: none;
+
+}
+
+.vrr1 {
+    color: white;
+}
+
+.vrr2 {
+    color: black;
+}
+
+.container-2 {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-c {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-c {
+    width: 50%;
+}
+
+.content-list {
+    font-size: 16px;
+    width: 500px;
+    color: #181e25;
+
+}
+
+.discord-btn {
+    border: none;
+    background-color: #4094ec;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.dclink {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    background-color: #181e25;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+
+.contact-list {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}

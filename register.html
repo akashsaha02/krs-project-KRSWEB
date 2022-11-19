@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div>
+            <div><img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt="" height="50px"></div>
+        </div>
+        <div class="list">
+            <a href="index.html#home" class="links">Home</a>
+            <a href="index.html#about-us" class="links">About Us</a>
+            <a href="#contact" class="links">Contact Us</a>
+        </div>
+        <div class="btnn">
+            <a href="login.html" class="btnn1">Log In</a>
+            <a href="" class="btnn2">Register</a>
+        </div>
+    </div>
+
+    <!-- registration page  -->
+
+    <div class="reg-form">
+        <div class="reg-box">
+            <h1>REGISTRATION FORM</h1>
+            <hr>
+            <br>
+            <form action="" id="myform">
+                <div class="user-box">
+                    <label for="name">Name:</label>
+                    <input class="form-input" type="text" name="name" placeholder="enter your name" />
+                    <div class="error" style="color: red;" id="nameErr"></div><br>
+                </div>
+                <div class="user-box">
+                    <label for="number">Number:</label>
+                    <input class="form-input" type="number" name="number" placeholder="enter your number" />
+                    <div class="error" style="color: red;" id="numberErr"></div><br>
+                </div>
+                <div class="user-box">
+                    <label for="email">E-mail:</label>
+                    <input class="form-input" type="text" name="email" placeholder="enter your e-mail" />
+                    <div class="error" style="color: red;" id="emailErr"></div><br>
+                </div>
+
+                <div class="user-box">
+                    <label for="gender">Gender</label>
+                    <div class="form-inline">
+                        <label><input type="radio" name="gender" value="male" /> Male</label>
+                        <label><input type="radio" name="gender" value="female" /> Female</label>
+                    </div>
+                    <div class="error" style="color: red;" id="genderErr"></div>
+                </div>
+                <br>
+                <div class="user-box">
+                    <label for="qualification">Qualification</label>
+                    <div class="form-inline">
+                        <label><input type="radio" name="qualification" value="student" /> Student</label>
+                        <label><input type="radio" name="qualification" value="teacher" /> Teacher</label>
+                    </div>
+                    <div class="error" style="color: red;" id="qualificationErr"></div>
+                </div>
+                <br>
+                <div class="user-box">
+                    <label for="courses">Courses</label>
+                    <div class="form-inline">
+                        <label><input type="radio" name="courses" value="web-dev" /> Web Development</label>
+                        <label><input type="radio" name="courses" value="app-dev" /> App Development</label>
+                    </div>
+                    <div class="error" style="color: red;" id="coursesErr"></div>
+                </div>
+                <br>
+                <div class="user-box">
+                    <label for="country">Country</label>
+                    <div class="form-inline">
+                        <select name="country" value="country" id="">
+                            <option value="">India</option>
+                            <option value="">Bangladesh</option>
+                        </select>
+                    </div>
+                    <div class="error" style="color: red;" id="countryErr"></div>
+                </div>
+
+                <p><b>Conditions</b></p>
+                <ol>
+                    <li>Each User shall only register once.</li>
+                    <li>It is the User's responsibility to make sure that she/he has sufficient access to
+                        Internet to participate to the activities at the desired extent.</li>
+                </ol>
+
+                <div class="user-box">
+                    <div class="form-inline">
+                        <label><input type="checkbox" name="condition" value="condition" id="condition" />"l have read and agreed
+                            to all
+                            conditions"</label>
+                    </div>
+                    <div class="error" style="color: red;" id="conditionErr"></div>
+                </div>
+                <br>
+                <div class="user-box">
+                    <label for="comment">Comment:</label>
+                    <textarea name="comment" value="comment" cols="30" rows="5" placeholder="Enter any comment"></textarea>
+                    <div class="error" style="color: red;" id="commentErr"></div>
+
+                </div>
+
+                <div>
+                    <input type="button" id="RegisterButton" class="btn6" onclick="validateform()" value="Submit"></button>
+                    <button type="button" class="btn6">Clear</button>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <hr> <br>
+    <div class="footer" id="contact">
+        <div><img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt=""></div>
+        <div class="contact-list">
+            <div>
+                <h2>Sitemap</h2>
+                <h3>Home</h3>
+                <h3>About Us</h3>
+                <h3>Contact Us</h3>
+            </div>
+            <div>
+                <h2>Contact Us</h2>
+                <h3>Instagram</h3>
+                <h3>Facebook</h3>
+                <h3>E-mail</h3>
+            </div>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>
